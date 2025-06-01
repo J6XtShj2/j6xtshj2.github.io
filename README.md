@@ -1,2 +1,2 @@
 # j6xtshj2.github.io
-<a href="http://www.yahoo.co.jp">ヤフーへジャンプ</a>
+<a href="https://j6xtshj2.github.io/index.html">cssテストへジャンプ</a>
