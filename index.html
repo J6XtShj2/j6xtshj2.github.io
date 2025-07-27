@@ -1,28 +1,41 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="utf-8" />
-    <title>CSS 入門</title>
-  </head>
-
-  <body>
-    <h1>これは見出し 1 です</h1>
-
-    <p>
-      これはテキストの段落です。このテキストには
-      <span>span 要素</span>と<a href="https://example.com"
-      >リンク</a>があります。
-    </p>
-
-    <p>
-      これは 2 つ目の段落です。ここには<em>強調された</em>要素があります。
-    </p>
-
-    <ul>
-      <li>1 つ目のアイテム</li>
-      <li>2 つ目のアイテム</li>
-      <li><em>3 つ目</em>のアイテム</li>
-    </ul>
-  </body>
+<head>
+<meta charset="UTF-8">
+<title>あなたのＨＰタイトル</title>
+<meta name="description" content="ページの説明">
+<meta name="keywords" content="ページのキーワードA,B,C">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div id="outer">
+<header>
+<div id="header-inner">
+<h1>あなたのＨＰタイトル</h1>
+<p class="description">あなたのＨＰの説明文</p>
+</div>
+</header>
+<div id="content">
+<div class="inner"><h2>記事ページ見出し・大</h2>
+<p>文章あれこれ</p>
+<h3>記事ページ見出し・中</h3>
+<p>文章あれこれ</p>
+<h4>記事ページ見出し・小</h4>
+<p>文章あれこれ</p>
+</div>
+</div>
+<aside>
+<div id="side-inner">
+<div class="side-title">サイドバータイトル</div>
+<div class="side">
+<ul>
+<li>記事ページへのリンク</li>
+<li>記事ページへのリンク</li>
+</ul>
+</div>
+</div>
+</aside>
+<footer>© 2010 あなたのホームページ</footer>
+</div></body>
 </html>
-
